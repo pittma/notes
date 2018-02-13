@@ -1,0 +1,15 @@
+---
+---
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class='container'>
+      <h1>Dan's Notepad</h1>
+
+      {% for note in site.notes %}
+        <h4><a href="{{ note.url }}">{{ note.title }}</a></h4>
+      {% endfor %}
+    </div>
+  </body>
+</html>

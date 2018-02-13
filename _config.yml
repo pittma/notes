@@ -1,0 +1,8 @@
+title: notes
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+collections:
+  notes:
+    output: true
